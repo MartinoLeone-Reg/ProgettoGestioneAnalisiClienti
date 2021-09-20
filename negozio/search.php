@@ -77,7 +77,7 @@ if(!isset($_SESSION["login"]))
                         </div>
                     </li>
                     <li>
-                        <a href="#" class="nav-link px-3 active">
+                        <a href="search.php" class="nav-link px-3 active">
                             <span class="me-2">
                                 <i class="bi bi-card-list"></i>
                             </span>
@@ -117,7 +117,7 @@ if(!isset($_SESSION["login"]))
                             echo"</div>";
                         echo"</li>";
                         echo"<li>";
-                            echo"<a href='#' class='nav-link px-3 active'>";
+                            echo"<a href='admin/users.php' class='nav-link px-3 active'>";
                                 echo"<span class='me-2'>";
                                     echo"<i class='bi bi-people-fill'></i>";  
                                 echo"</span>";
@@ -127,7 +127,7 @@ if(!isset($_SESSION["login"]))
                             echo"</a>"; 
                         echo"</li>";
                         echo"<li>";
-                            echo"<a href='#' class='nav-link px-3 active'>";
+                            echo"<a href='admin/addUsers.php' class='nav-link px-3 active'>";
                                 echo"<span class='me-2'>";
                                     echo"<i class='bi bi-person-plus'></i>"; 
                                 echo"</span>";

@@ -74,7 +74,7 @@ if(!isset($_SESSION["login"])||$_SESSION["login"]!=1)
                         </div>
                     </li>
                     <li>
-                        <a href="search.php" class="nav-link px-3 active">
+                        <a href="../search.php" class="nav-link px-3 active">
                             <span class="me-2">
                                 <i class="bi bi-card-list"></i>
                             </span>
@@ -94,7 +94,7 @@ if(!isset($_SESSION["login"])||$_SESSION["login"]!=1)
                         </a> 
                     </li>
                     <li>
-                        <a href="addItem.php" class="nav-link px-3 active">
+                        <a href="../addItem.php" class="nav-link px-3 active">
                             <span class="me-2">
                                 <i class="bi bi-plus-lg"></i>
                            </span>
